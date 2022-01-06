@@ -1,0 +1,48 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.focuse{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.focuse-detail{
+    padding-top: 80px;
+}
+.focuse-detail h1{
+    font-family: 'Yeseva One', cursive;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 80px;
+    border-left: 3px solid red;
+}
+.focuse-detail h1 span{
+    color: rgb(236, 119, 22);
+}
+.focuse-detail p{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #000000;
+}
+.btn{
+    padding: 12px 24px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font: 'poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.focuse-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.focuse-img img{
+    width: 70%;
+}
