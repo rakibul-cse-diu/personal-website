@@ -17,6 +17,16 @@ p{
     line-height: 23px;
     margin: 20px 0;
 }
+.btn{
+    padding: 12px 24px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    font: 'poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* 2022 focuse section */
 .focuse{
@@ -43,15 +53,6 @@ p{
     line-height: 28px;
     color: #000000;
 }
-.btn{
-    padding: 12px 24px;
-    background-color: tomato;
-    color: white;
-    font-size: 18px;
-    font: 'poppins', sans-serif;
-    border: none;
-    border-radius: 10px;
-}
 .focuse-img{
     display: flex;
     justify-content: center;
@@ -60,6 +61,7 @@ p{
 .focuse-img img{
     width: 70%;
 }
+
 /* My missions */
 .mission{
     display: flex;
@@ -135,7 +137,6 @@ p{
 }
 
 /* Global Community */
-
 .community{
     padding: 50px 0;
     background-image: url("images/shapes/shape-1.png");
@@ -167,8 +168,55 @@ p{
     color: black;
 }
 
-/* Footer area */
+/* Connect with me */
+.connect{
+    margin: 100px 50px;
+}
+.connect h3{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.connect h3 span{
+    color: rgb(236, 119, 22);
+}
+.connect-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-me p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-me p span{
+    font-weight: 800;
+}
+.contact-me a{
+    margin: 20px;
+    padding: 0 5px;
+    font-size: 26px;
+    text-align: center;
+}
+.massage-me{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+}
+.massage-me h3{
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.massage-me input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.Submit-btn{
+    margin: 15px 0;
+}
 
+/* Footer area */
 .footer{
     display: flex;
     flex-direction: column;
